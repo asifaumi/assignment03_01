@@ -53,17 +53,17 @@ nav ul li{
 }
 nav ul li a{
     font-size: 16px;
-    padding: 16px;
+    padding: 16px 0px;
+    margin-left: 20px;
     display: block;
     color: #2D3950;
     text-decoration: none;
     text-transform: uppercase;
     border-bottom: 1px solid transparent;
-    transition: all 0.45s ease;
-    
+    transition: all 0.45s cubic-bezier(0.02, 0.46, 0.96, 1.42);
 }
 nav ul li a:hover{
-   border-bottom: 5px solid #15A4FA;
+    border-bottom: 5px solid #15A4FA;
 
 }
 
@@ -112,6 +112,12 @@ nav ul li a:hover{
     padding: 10px;
     display: inline-block;
     margin: 10px;
+}
+
+.banner-content a:hover{
+    cursor: pointer;
+    color:#15A4FA;
+    border: 2px solid #15A4FA;
 }
 
 .overlay{
