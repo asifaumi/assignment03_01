@@ -80,6 +80,7 @@ nav ul li a
 nav ul li a:hover
     {
         border-bottom: 2.5px solid #15A4FA;
+        transition: all 0.65s ease;
     }
 
 .banner-section
@@ -142,6 +143,7 @@ nav ul li a:hover
         cursor: pointer;
         color:#15A4FA;
         border: 2px solid #15A4FA;
+        transition: all 0.65s ease;
     }
 
 .overlay
@@ -344,6 +346,7 @@ form ul li a:hover
     {
         color: #15A4FA;
         border: 1.5px solid #15A4FA;
+        transition: all 0.65s ease;
     }
 
 .heading span
@@ -408,6 +411,7 @@ footer
         cursor: pointer;
         background-color:#2D3950 ;
         box-shadow: 1px 2px 3px #2D3950;
+        transition: all 0.65s ease;
     }
 
 /*css styling section ends*/
