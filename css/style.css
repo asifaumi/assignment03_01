@@ -177,6 +177,7 @@ nav ul li a:hover
         padding: 100px 0px;
         text-align: center;
         font-size: 20px;
+
     }
 
 .heading h4
@@ -374,14 +375,10 @@ form ul li a:hover
         transition: all 0.65s ease;
     }
 
-.heading h2
-    {
-        font-size: 34px;
-    }
-
 .heading span
     {
-        font-size: 34px;
+        font-size: 16px;
+        float: left;
         color: #15a4fa;
         padding-left: 5px;
     }
